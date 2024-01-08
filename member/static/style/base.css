@@ -10,6 +10,9 @@
   .mobNavBar{
     display: none !important;
   }
+  .deskNavBar{
+    display: block;
+  }
 }
 
 @media(max-width:990px) {
@@ -18,7 +21,7 @@
   }
   .mobNavBar{
     display: block;
-    z-index: 12;
+    z-index: 10;
     position: absolute;
   }
 }
